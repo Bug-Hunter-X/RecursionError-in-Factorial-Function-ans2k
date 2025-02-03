@@ -1,0 +1,3 @@
+# RecursionError in Factorial Function
+
+This repository demonstrates a common error in recursive functions in Python: exceeding the maximum recursion depth.  The `factorial.py` file contains a simple factorial function implemented recursively. This works fine for small inputs, but for larger numbers, it will hit Python's recursion limit and raise a `RecursionError`. The `factorialSolution.py` file demonstrates a solution using iteration to avoid this limitation.
